@@ -1,4 +1,4 @@
-# DBPediaVectorRepresentationExtracting Vector Representation of DBPedia Properties from word2vec
+# Vector Representation of DBPedia Properties from word2vec
 
 Vector representation of words has been learned by word2vec and useful in many natural language
 processing and information retrieval. However, the advantages that can be utilized by applying
