@@ -24,7 +24,7 @@ public class InformationExtraction {
     public static void main(String[] args) throws Exception {
 
         // Gets Path to Text file
-        String filePath = new ClassPathResource("raw_sentences.txt").getFile().getAbsolutePath();
+        String filePath = new ClassPathResource("data.txt").getFile().getAbsolutePath();
 
         log.info("Load & Vectorize Sentences....");
         // Strip white space before and after for each line
@@ -57,8 +57,8 @@ public class InformationExtraction {
 
         // Prints out the closest 10 words to "day". An example on what to do with these Word Vectors.
         log.info("Closest Words:");
-        Collection<String> kingList = vec.wordsNearest(Arrays.asList("man", "program"), Arrays.asList("day"), 10);
-        System.out.println("10 Words closest to 'day': " + kingList);
+        Collection<String> kingList = vec.wordsNearest(Arrays.asList("berlin", "germany"), Arrays.asList("paris"), 5);
+        System.out.println("5 Words near to 'paris': " + kingList);
 
         // TODO resolve missing UiServer
 //        UiServer server = UiServer.getInstance();

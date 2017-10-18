@@ -28,7 +28,7 @@ public class VectorRepresentation {
 
     public static void main(String[] args) throws Exception {
 
-        ClassPathResource resource = new ClassPathResource("raw_sentences.txt");
+        ClassPathResource resource = new ClassPathResource("data.txt");
         File file = resource.getFile();
 
         AbstractCache<VocabWord> vocabCache = new AbstractCache.Builder<VocabWord>().build();
@@ -141,8 +141,8 @@ public class VectorRepresentation {
             Please note: all similarity context is handled via SequenceElement's labels, so if you're using AbstractVectors to build models for complex
             objects/relations please take care of Labels uniqueness and meaning for yourself.
          */
-        double sim = vectors.similarity("day", "night");
-        logger.info("Day/night similarity: " + sim);
+        double sim = vectors.similarity("paris", "capital");
+        logger.info("paris/capital similarity: " + sim);
 
     }
 }
