@@ -1,0 +1,9 @@
+dbpedia\properties\vector\WordFinder.class
+dbpedia\properties\vector\InformationExtraction.class
+dbpedia\propertiesextraction\SPARQL\AllProperties.class
+dbpedia\properties\vector\Word2VecUptrainingExample.class
+dbpedia\properties\vector\VectorRepresentation.class
+dbpedia\propertiesextraction\SPARQL\ExOfResources.class
+dbpedia\propertiesextraction\SPARQL\ExtractionOfProp.class
+dbpedia\propertiesextraction\SPARQL\PropertiesCountry.class
+dbpedia\properties\vector\WordSimilarity.class

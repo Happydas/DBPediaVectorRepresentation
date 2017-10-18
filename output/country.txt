@@ -1,0 +1,2 @@
+[Country=http://dbpedia.org/ontology/wikiPageWikiLink]
+[Country=http://dbpedia.org/ontology/country]
